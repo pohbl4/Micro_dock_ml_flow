@@ -20,15 +20,18 @@ To run this project, you need the following tools installed on your machine:
    cd microservice_architecture
    
 2. Build and start all containers with Docker Compose:
-docker-compose up --build
+   ```bash
+   docker-compose up --build
 
 3. The RabbitMQ interface will be available at:
-http://localhost:15672
+   ```bash
+   http://localhost:15672
 
 4. Use the following credentials to log in:
-Username: user
-Password: password
-Logs and prediction statistics are collected in the ./logs directory.
+   ```bash
+   Username: user
+   Password: password
+   Logs and prediction statistics are collected in the ./logs directory.
 
 
 
