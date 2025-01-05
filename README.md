@@ -15,17 +15,23 @@ To run this project, you need the following tools installed on your machine:
 ## Getting Started
 
 1. Clone the repository:
-
    ```bash
    git clone <repository-link>
    cd microservice_architecture
-Build and start all containers with Docker Compose:
-
+   
+2. Build and start all containers with Docker Compose:
 docker-compose up --build
-The RabbitMQ interface will be available at:http://localhost:15672Use the following credentials to log in:
+
+3. The RabbitMQ interface will be available at:
+http://localhost:15672
+
+4. Use the following credentials to log in:
 Username: user
 Password: password
 Logs and prediction statistics are collected in the ./logs directory.
+
+
+
 How It Works
 Microservices
 features.py: Handles feature processing tasks received from RabbitMQ queues.
