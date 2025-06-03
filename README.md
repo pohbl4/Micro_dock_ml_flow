@@ -1,6 +1,3 @@
-# HW1_BAML
-# Zinner Ron
-
 # Microservice Architecture Project
 
 This project demonstrates a microservices architecture using Docker, Docker Compose, and RabbitMQ for communication between services.
